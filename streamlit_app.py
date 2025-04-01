@@ -66,7 +66,7 @@ with col2:
     if st.button("Predict Salary"):
         custom_pred = model.predict(poly.transform([[customer_exp]]))[0]
         st.success(f"Predicted Salary: **₹{custom_pred:,.2f}**")
-        st.write("After entering the value click the button....!!")
+    st.write("After entering the value click the button....!!")
 # Create interactive plot
 fig = go.Figure()
 
