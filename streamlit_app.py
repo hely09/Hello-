@@ -114,7 +114,7 @@ if 'custom_pred' in locals():
 fig.update_layout(
     title='<b>Salary vs Experience</b>',
     xaxis_title='Years of Experience',
-    yaxis_title='Annual Salary (USD)',
+    yaxis_title='Annual Salary',
     hoverlabel=dict(bgcolor="white", font_size=12),
     template='plotly_white',
     height=600
